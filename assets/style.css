@@ -5,27 +5,31 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #f4f7fb;
-  color: #1f2937;
+  background: #f6efe6; /* warm beige */
+  color: #2c2c2c;
   line-height: 1.6;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers content horizontally */
 }
 
 header {
-  background: #1e3a5f;
-  color: white;
-  padding: 32px 20px 24px 20px;
+  width: 100%;
+  background: #3e2f2f; /* warm dark brown */
+  color: #fff;
+  padding: 40px 20px;
   text-align: center;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.2rem;
+  font-size: 2.3rem;
 }
 
 header p {
   margin: 8px 0 0 0;
-  font-size: 1rem;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 nav {
@@ -36,71 +40,58 @@ nav a {
   display: inline-block;
   margin: 6px 8px;
   padding: 10px 14px;
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.15);
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  transition: background 0.2s ease;
+  transition: 0.2s ease;
 }
 
 nav a:hover {
-  background: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.3);
 }
 
+/* MAIN CONTENT CENTERING */
 main {
-  max-width: 960px;
-  margin: 32px auto;
-  padding: 0 20px 40px 20px;
+  width: 100%;
+  max-width: 900px;
+  padding: 40px 20px;
 }
 
+/* CARD STYLE */
 .card {
-  background: white;
+  background: #fffaf5; /* warm off-white */
   border-radius: 14px;
-  padding: 24px;
+  padding: 28px;
   margin-bottom: 24px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
 
+/* HEADINGS */
 h2 {
-  color: #1e3a5f;
   margin-top: 0;
+  color: #3e2f2f;
 }
 
-p {
-  margin-bottom: 14px;
-}
-
-.file-links a,
-.button-link {
+/* BUTTON LINKS */
+.file-links a {
   display: inline-block;
   margin: 8px 10px 8px 0;
   padding: 10px 14px;
-  background: #1e3a5f;
+  background: #6b4f4f;
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  transition: background 0.2s ease;
+  transition: 0.2s ease;
 }
 
-.file-links a:hover,
-.button-link:hover {
-  background: #274d7c;
+.file-links a:hover {
+  background: #8a6767;
 }
 
+/* FOOTER */
 footer {
   text-align: center;
-  padding: 24px;
-  color: #4b5563;
-  font-size: 0.95rem;
-}
-
-.highlight {
-  background: #e8f0fb;
-  border-left: 4px solid #1e3a5f;
-  padding: 12px 14px;
-  border-radius: 8px;
-}
-
-ul {
-  padding-left: 20px;
+  padding: 20px;
+  color: #5a4a42;
 }
