@@ -5,66 +5,56 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #f6efe6; /* warm beige */
+  background: #f6efe6;
   color: #2c2c2c;
   line-height: 1.6;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* centers content horizontally */
 }
 
+/* CENTERED CONTAINER */
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
 header {
-  width: 100%;
-  background: #3e2f2f; /* warm dark brown */
-  color: #fff;
-  padding: 40px 20px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 2.3rem;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: #3e2f2f;
 }
 
-header p {
-  margin: 8px 0 0 0;
-  opacity: 0.9;
-}
-
+/* NAV */
 nav {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 nav a {
   display: inline-block;
   margin: 6px 8px;
-  padding: 10px 14px;
-  background: rgba(255, 255, 255, 0.15);
+  padding: 8px 12px;
+  background: #6b4f4f;
   color: white;
   text-decoration: none;
-  border-radius: 8px;
-  transition: 0.2s ease;
+  border-radius: 6px;
+  font-size: 0.9rem;
 }
 
 nav a:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: #8a6767;
 }
 
-/* MAIN CONTENT CENTERING */
-main {
-  width: 100%;
-  max-width: 900px;
-  padding: 40px 20px;
-}
-
-/* CARD STYLE */
+/* MAIN CARD */
 .card {
-  background: #fffaf5; /* warm off-white */
-  border-radius: 14px;
-  padding: 28px;
-  margin-bottom: 24px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  background: #fffaf5;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
 /* HEADINGS */
@@ -73,25 +63,31 @@ h2 {
   color: #3e2f2f;
 }
 
-/* BUTTON LINKS */
+/* TEXT */
+p {
+  margin-bottom: 16px;
+}
+
+/* HIGHLIGHT BOX */
+.highlight {
+  background: #efe3d6;
+  padding: 12px 14px;
+  border-left: 4px solid #6b4f4f;
+  border-radius: 6px;
+  margin-bottom: 18px;
+}
+
+/* FILE BUTTONS */
 .file-links a {
   display: inline-block;
-  margin: 8px 10px 8px 0;
-  padding: 10px 14px;
+  margin: 6px 8px 6px 0;
+  padding: 8px 12px;
   background: #6b4f4f;
   color: white;
   text-decoration: none;
-  border-radius: 8px;
-  transition: 0.2s ease;
+  border-radius: 6px;
 }
 
 .file-links a:hover {
   background: #8a6767;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  color: #5a4a42;
 }
