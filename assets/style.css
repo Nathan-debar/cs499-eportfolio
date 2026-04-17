@@ -10,14 +10,12 @@ body {
   line-height: 1.6;
 }
 
-/* CENTERED CONTAINER */
 .container {
   max-width: 900px;
   margin: 60px auto;
   padding: 0 20px;
 }
 
-/* HEADER */
 header {
   text-align: center;
   margin-bottom: 30px;
@@ -29,7 +27,6 @@ header h1 {
   color: #3e2f2f;
 }
 
-/* NAV */
 nav {
   margin-top: 10px;
 }
@@ -49,26 +46,23 @@ nav a:hover {
   background: #8a6767;
 }
 
-/* MAIN CARD */
 .card {
   background: #fffaf5;
   border-radius: 12px;
   padding: 30px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
 }
 
-/* HEADINGS */
 h2 {
   margin-top: 0;
   color: #3e2f2f;
 }
 
-/* TEXT */
 p {
   margin-bottom: 16px;
 }
 
-/* HIGHLIGHT BOX */
 .highlight {
   background: #efe3d6;
   padding: 12px 14px;
@@ -77,7 +71,6 @@ p {
   margin-bottom: 18px;
 }
 
-/* FILE BUTTONS */
 .file-links a {
   display: inline-block;
   margin: 6px 8px 6px 0;
